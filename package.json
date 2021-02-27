@@ -1,0 +1,25 @@
+{
+  "name": "kladd-app",
+  "version": "0.1.0",
+  "description": "",
+  "main": "klapp-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonasknutsen/kladd-api.git"
+  },
+  "author": "Jonas Knutsen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasknutsen/kladd-api/issues"
+  },
+  "homepage": "https://github.com/jonasknutsen/kladd-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-promise-router": "^4.0.1",
+    "pg": "^8.5.1"
+  }
+}
